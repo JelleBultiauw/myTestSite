@@ -1,0 +1,46 @@
+
+@font-face {
+    font-family: "customFont";
+    src: url(fonty.ttf);
+
+    font-family: "mydrugsfont";
+    src: url(mydrugsfont.ttf);
+}
+@font-face {
+    font-family: "customFont";
+    src: url(fonty.ttf);
+
+    font-family: "mydrugsfont";
+    src: url(mydrugsfont.ttf);
+}
+
+.p{
+  height: 1000px;
+}
+
+.parag{
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-family: mydrugsfont;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    font-size: 100px;
+    margin-top: 15px;
+}
+.parag:hover{
+    color: gray;
+}
+
+
+/* Navbar */
+
+.topnav{
+  background-color: orange;
+  overflow: hidden;
+}
+.topnav a {
+  text-align: center;
+}
+
